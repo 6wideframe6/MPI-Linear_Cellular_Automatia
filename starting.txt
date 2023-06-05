@@ -1,0 +1,10 @@
+Linux
+
+mpicc -std=c99 ./gameoflifeMPI.c -o ./gol
+mpiexec -n 6 ./gol 101 100 2
+
+
+
+Win
+
+mpiexec -n 6 .\cellularautomatiaparallel.exe 101 100 2
